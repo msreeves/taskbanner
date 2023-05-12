@@ -1,0 +1,28 @@
+.col-sm-6 {
+	    flex: 0 0 50%;
+    	max-width: 50%;
+}
+
+.row {
+	display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+nav ul{
+	-webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+}
